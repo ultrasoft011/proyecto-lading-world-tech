@@ -1,0 +1,27 @@
+sass
+
+sass es un preprocesador de css que combierte a css en un lenguage de programacion 
+
+Que podemos hacer con sass:
+                            - Crear variables
+                            $primary-color: red;
+
+                            -mixin
+                                crear @mixin nameExample { //propiedades}
+                                aplicar el mixin @include nameExample;
+
+                                tambien podemos asignar parametro
+
+
+
+Para iniciar debemos
+                        1. instalar scss
+                            npm i sass
+                            sass --vesion  (confirmamos la version instalada)
+
+                        2. Compilamos la carpeta sass con la de css en la linea de comandos
+                            sass --watch scss:css
+
+                        3. Ya podemos iniciar
+
+
