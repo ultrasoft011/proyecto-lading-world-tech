@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-lading-world-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.35.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultrasoft011/proyecto-lading-world-tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ultrasoft011/proyecto-lading-world-tech/issues"
+  },
+  "homepage": "https://github.com/ultrasoft011/proyecto-lading-world-tech#readme"
+}

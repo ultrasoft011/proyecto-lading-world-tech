@@ -5,40 +5,65 @@
 }
 
 .prototy__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 50px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .prototy__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .prototy__content h1 {
   margin-bottom: 20px;
 }
+
 .prototy__content p {
   margin-bottom: 20px;
   line-height: 200%;
-  width: 70%;
 }
 
 .prototy__variable {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 50px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .prototy__variable--imagen {
-  order: -1;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
 }
 
 .prototy__progress {
   text-align: center;
 }
+
 .prototy__progress h1 {
   padding-bottom: 20px;
 }
@@ -54,6 +79,7 @@
   border-radius: 9.5px;
   background: #f3f5f8;
 }
+
 .prototy__bar--content div {
   background: #00b6f0;
   height: 10px;
@@ -62,8 +88,12 @@
 }
 
 .prototy__bar--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .prototy__progress--button {
@@ -83,4 +113,27 @@
   color: #00b6f0;
 }
 
+@media screen and (max-width: 1064px) {
+  .prototy {
+    margin: 10px 5%;
+  }
+  .prototy__content {
+    width: 100%;
+    text-align: center;
+  }
+  .prototy__content p {
+    text-align: left;
+  }
+  .prototy__features--imagen {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .prototy__bar {
+    width: 60%;
+  }
+  .prototy__progress--button {
+    width: 44%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
