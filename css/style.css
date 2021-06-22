@@ -1,3 +1,7 @@
+
+/*inicio modulo cinco*/
+
+
 .contenido {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,18 +26,18 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px 36px;
-  background: #00b6f0;
+  background: #00B6F0;
   border-radius: 85px;
   color: #ffffff;
   width: 192px;
   height: 52px;
   margin-top: 30px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 18px;
 }
 
@@ -43,9 +47,12 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 426px;
   height: 211px;
 }
+
+
+/*fin modulo cinco*/
 /*# sourceMappingURL=style.css.map */
