@@ -1,11 +1,10 @@
-
 /*inicio modulo cinco*/
-
-
 .contenido {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .contenido h1 {
@@ -52,7 +51,6 @@
   width: 426px;
   height: 211px;
 }
-
 
 /*fin modulo cinco*/
 /*# sourceMappingURL=style.css.map */
