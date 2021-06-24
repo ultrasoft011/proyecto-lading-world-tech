@@ -1,0 +1,124 @@
+// variables
+$primary-color: #00b6f0;
+
+//mixin
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    line-height: 200%;
+  }
+}
+
+@mixin styleContent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.prototy__features {
+  @include styleContent();
+}
+
+.prototy__content {
+  @include card();
+}
+
+.prototy__variable {
+  @include styleContent();
+}
+
+.prototy__variable--imagen {
+  order: -1;
+}
+
+.prototy__progress {
+  text-align: center;
+
+  h1 {
+    padding-bottom: 20px;
+  }
+}
+
+.prototy__bar {
+  width: 40%;
+  margin: 50px auto 40px auto;
+}
+
+.prototy__bar--content {
+  height: 10px;
+  margin: 0 auto 10px 0;
+  border-radius: 9.5px;
+  background: #f3f5f8;
+
+  div {
+    background: $primary-color;
+    height: 10px;
+    border-radius: 9.5px;
+    width: 50%;
+  }
+}
+
+.prototy__bar--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prototy__progress--button {
+  width: 15%;
+  padding: 10px;
+  border-radius: 85px;
+  background: $primary-color;
+  color: #fff;
+  border: none;
+}
+
+.prototy__imagen {
+  width: 100%;
+}
+
+.prototy__text--footer {
+  color: $primary-color;
+}
+
+@media screen and (max-width: 1064px) {
+  .prototy {
+    margin: 10px 5%;
+  }
+
+  .prototy__content {
+    width: 100%;
+    text-align: center;
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .prototy__features--imagen {
+    order: -1;
+  }
+
+  .prototy__bar {
+    width: 60%;
+  }
+  .prototy__progress--button {
+    width: 44%;
+  }
+}

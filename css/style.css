@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.prototy__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prototy__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prototy__content h1 {
+  margin-bottom: 20px;
+}
+
+.prototy__content p {
+  margin-bottom: 20px;
+  line-height: 200%;
+}
+
+.prototy__variable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prototy__variable--imagen {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.prototy__progress {
+  text-align: center;
+}
+
+.prototy__progress h1 {
+  padding-bottom: 20px;
+}
+
+.prototy__bar {
+  width: 40%;
+  margin: 50px auto 40px auto;
+}
+
+.prototy__bar--content {
+  height: 10px;
+  margin: 0 auto 10px 0;
+  border-radius: 9.5px;
+  background: #f3f5f8;
+}
+
+.prototy__bar--content div {
+  background: #00b6f0;
+  height: 10px;
+  border-radius: 9.5px;
+  width: 50%;
+}
+
+.prototy__bar--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prototy__progress--button {
+  width: 15%;
+  padding: 10px;
+  border-radius: 85px;
+  background: #00b6f0;
+  color: #fff;
+  border: none;
+}
+
+.prototy__imagen {
+  width: 100%;
+}
+
+.prototy__text--footer {
+  color: #00b6f0;
+}
+
+@media screen and (max-width: 1064px) {
+  .prototy {
+    margin: 10px 5%;
+  }
+  .prototy__content {
+    width: 100%;
+    text-align: center;
+  }
+  .prototy__content p {
+    text-align: left;
+  }
+  .prototy__features--imagen {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .prototy__bar {
+    width: 60%;
+  }
+  .prototy__progress--button {
+    width: 44%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
