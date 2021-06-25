@@ -1,0 +1,120 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.modulo1 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.modulo1__main-section {
+  width: 100%;
+}
+
+.modulo1__iconblue {
+  position: absolute;
+  top: 40px;
+  left: -100px;
+  width: 50%;
+  height: 900px;
+}
+
+.modulo1__iconyellow {
+  position: absolute;
+  top: 40px;
+  left: 70%;
+  width: 100%;
+  height: 1000px;
+}
+
+.modulo1__lightingFast {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modulo1__lightingFast p {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.modulo1__lightingFast h1 {
+  color: #112D57;
+  font-size: 75px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.modulo1__lightingFast--subtitle {
+  color: #F3CD03;
+  font-size: 36px;
+  margin: 0;
+}
+
+.modulo1__lightingFast--title {
+  color: #20262A;
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.modulo1__lightingFast--content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modulo1__lightingFast-buttons {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modulo1__lightingFast-buttons button {
+  width: 194px;
+  height: 52px;
+  border-radius: 25px;
+  border: transparent;
+  font-weight: bold;
+}
+
+.modulo1__lightingFast-buttons button:first-child {
+  background-color: #1DA1F2;
+  color: white;
+  font-size: 16px;
+}
+
+.modulo1__lightingFast-buttons button:last-child {
+  background-color: #fff;
+  color: black;
+  font-size: 16px;
+  border: 2px solid #1DA1F2;
+}
+
+.modulo1__dashboard {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
